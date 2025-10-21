@@ -1,14 +1,14 @@
 /* Color Variables */
 :root {
-  --primary-color: #3498db;        /* nav background */
-  --secondary-color: #2ecc71;      /* optional supporting color */
-  --accent-color: #e74c3c;         /* for highlights/buttons */
-  --background-color: #ffffff;     /* page background */
-  --text-color: #000000;           /* main text color */
-  --nav-link-color: #555555;       /* unclicked nav link */
-  --nav-link-current-bg: #d4d4d4;  /* current page background */
+  --primary-color: #3498db; /* nav background */
+  --secondary-color: #2ecc71; /* optional supporting color */
+  --accent-color: #e74c3c; /* for highlights/buttons */
+  --background-color: #ffffff; /* page background */
+  --text-color: #000000; /* main text color */
+  --nav-link-color: #555555; /* unclicked nav link */
+  --nav-link-current-bg: #d4d4d4; /* current page background */
   --nav-link-current-color: #000000; /* current page text color */
-  --nav-border-color: #aaa;        /* border for nav links */
+  --nav-border-color: #aaa; /* border for nav links */
 }
 
 /* General Box Sizing */
@@ -56,7 +56,7 @@ nav a:hover {
 }
 
 /* Current Page Link */
-nav a[aria-current='page'] {
+nav a[aria-current="page"] {
   color: var(--nav-link-current-color);
   background-color: var(--nav-link-current-bg);
 }
